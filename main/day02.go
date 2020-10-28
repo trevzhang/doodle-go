@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	str := "你好北京"
+	str := "你好深圳"
 	// 字符串遍历方式: 传统for循环
 	for i := 0; i < len(str); i++ {
 		fmt.Printf("%c\n", str[i])
